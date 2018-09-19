@@ -1,0 +1,21 @@
+20180914
+
+Chapter 06 Prototype - 복사해서 인스턴스 만들기
+
+예제
+
+패키지		이름				해설
+
+framework	Product			추상 메소드 use와 createClone이 선언되어 있는 인터페이스
+			Manager			createClone을 사용해서 인스턴스를 복제하는 클래스
+
+Anonymous	MessageBox		문자열을 테두리로 표시하는 클래스. use와 createClone을 구현
+			UnderlinePen	문자열에 밑줄을 표시하는 클래스. use와 createClone을 구현
+			Main			동작 테스트용 클래스
+				
+
+
+
+이장에서 학습한 내용
+클래스로부터 인스턴스를 만드는 것이 아니고, 인스턴스에서 새로운 인스턴스를 만드는 Prototype 패턴에 대해서 배웠습니다.
+또한 clone 메소드와 Cloneable 인터페이스의 사용법도 배웠습니다.

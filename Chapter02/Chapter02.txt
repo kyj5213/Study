@@ -1,0 +1,11 @@
+20180904
+
+Chapter 02 Adapter - 바꿔서 재이용하기
+
+제공되고 있는 것	: 교류 100볼트	: Banner 클래스(showWithParen, showWithAster)
+교환장치		: 어댑터		: PrintBanner 클래스
+필요한 것		: 직류 12볼트	: Print 인터페이스(printWeak, printStrong)
+
+이장에서 학습한 내용
+서로 다른 두 개의 인터페이스(API) 사이를 연결해 주는 Adapter 패턴에 대해서 배웠습니다.
+상속을 사용한 패턴과 위임을 사용한 패턴을 소개하고 각각의 특징에 대해서 배웠습니다.
